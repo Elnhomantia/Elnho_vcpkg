@@ -1,0 +1,11 @@
+{
+  "name": "signals",
+  "version-string": "1.1.3",
+  "description": "A lightweight signal-slot header-only C++20 library",
+  "homepage": "https://github.com/Elnhomantia/signals",
+  "license": "MIT",
+  "dependencies": [
+    "vcpkg-cmake",
+    "vcpkg-cmake-config"
+  ]
+}
