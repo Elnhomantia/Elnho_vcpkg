@@ -1,6 +1,7 @@
 {
   "name": "queuedthread",
   "version-string": "1.0.1",
+  "port-version": 0,
   "description": "A lightweight thread C++20 library that enable you to queue tasks in a thread.",
   "homepage": "https://github.com/Elnhomantia/QueuedThread",
   "license": "MIT",
