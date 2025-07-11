@@ -4,7 +4,8 @@ Please see https://github.com/microsoft/vcpkg for more information.
 
 # How to use
 - Install vcpkg (don't forget the installation script and to update your path).
-- Execute `vcpkg install <one-of-my-lib-in-ports> --overlay-ports=https://github.com/Elnhomantia/Elnho_vcpkg`.
+- Clone this repo.
+- Execute `vcpkg install <one-of-my-lib-in-ports> --overlay-ports=<path-to-cloned-repo>`.
 
 Alternatively, some projects might provide a `vcpkg.json` with dependencies inside. You need to execute `vcpkg install` in that case.
 To make such file for one of your project :
@@ -15,12 +16,17 @@ To make such file for one of your project :
   "dependencies": [
     "one-lib-in-vcpkg",
     "one-of-my-lib-in-ports",
-  ],
+  ]
+}
+```
+And `vcpkg-configuration.json`.
+```
+{
   "registries": [
     {
       "kind": "git",
       "repository": "https://github.com/Elnhomantia/Elnho_vcpkg",
-      "baseline": "master",
+      "baseline": "<commit-SHA1>",
       "packages": [ "one-of-my-lib-in-ports" ]
     }
   ]
