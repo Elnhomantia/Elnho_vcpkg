@@ -1,0 +1,6 @@
+{
+  "default": {
+    "queuedthread": "1.0.1",
+    "signals": "1.1.3"
+  }
+}
