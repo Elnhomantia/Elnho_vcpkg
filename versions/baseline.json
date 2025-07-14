@@ -7,6 +7,10 @@
         "queuedthread": {
             "baseline": "1.0.1",
             "port-version": 0
+        },
+        "window": {
+            "baseline": "1.0.0",
+            "port-version": 0
         }
     }
 }
