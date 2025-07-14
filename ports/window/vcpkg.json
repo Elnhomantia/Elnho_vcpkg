@@ -1,0 +1,12 @@
+{
+  "name": "window",
+  "version-string": "1.0.0",
+  "port-version": 0,
+  "description": "A lightweight window C++20 library",
+  "homepage": "https://github.com/Elnhomantia/signals",
+  "license": "MIT",
+  "dependencies": [
+    "vcpkg-cmake",
+    "vcpkg-cmake-config"
+  ]
+}
