@@ -8,6 +8,7 @@
   "dependencies": [
     "vcpkg-cmake",
     "vcpkg-cmake-config",
+    "vulkan",
     "signals",
     "queuedthread"
   ]
